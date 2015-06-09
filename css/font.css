@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../font/ProximaNova-Thin.eot');
+  src: url('../font/ProximaNova-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProximaNova-Thin.woff') format('woff'),
+       url('../font/ProximaNova-Thin.ttf') format('truetype'),
+       url('../font/ProximaNova-Thin.svg#ProximaNova-Thin') format('svg'); 
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../font/ProximaNova-Light.eot');
+  src: url('../font/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProximaNova-Light.woff') format('woff'),
+       url('../font/ProximaNova-Light.ttf') format('truetype'),
+       url('../font/ProximaNova-Light.svg#ProximaNova-Light') format('svg'); 
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../font/ProximaNova-Semibold.eot');
+  src: url('../font/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProximaNova-Semibold.woff') format('woff'),
+       url('../font/ProximaNova-Semibold.ttf') format('truetype'),
+       url('../font/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'); 
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Rambla';
+  src: url('../font/Rambla-Bold.eot');
+  src: url('../font/Rambla-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/Rambla-Bold.woff') format('woff'),
+       url('../font/Rambla-Bold.ttf') format('truetype'),
+       url('../font/Rambla-Bold.svg#Rambla-Bold') format('svg');
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Rambla';
+  src: url('../font/Rambla-Light.eot');
+  src: url('../font/Rambla-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/Rambla-Light.woff') format('woff'),
+       url('../font/Rambla-Light.ttf') format('truetype'),
+       url('../font/Rambla-Light.svg#Rambla-Light') format('svg');
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+}

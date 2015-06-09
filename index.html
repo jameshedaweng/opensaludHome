@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html class="loading">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Opensalud</title>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+    <link rel="stylesheet" href="css/simpletextrotator.css">
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <nav id="navbar-main" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-0">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand link-scroll" href="header">
+            <img src="img/logo-blue.svg" alt="OpenSalud">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-0">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#how-it-works-section" class="link-scroll hidden-xs">¿Cómo funciona?</a></li>
+            <li><a href="#search-section" class="link-scroll">Elige tu médico</a></li>
+            <li><a href="servicios.html" class="hidden-sm">Servicios</a></li>
+            <li><a href="#">Iniciar sesión</a></li>
+            <li><button type="button" class="sign-up-btn btn btn-default navbar-btn blue-border-btn">Registrarse</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="background-container">
+      <img class="background" src="img/bg-1.jpg">
+      <img class="background" src="img/bg-2.jpg">
+      <img class="background" src="img/bg-3.jpg">
+      <img class="background" src="img/bg-4.jpg">
+      <img class="background" src="img/bg-5.jpg">
+    </div>
+    <header>
+      <div class="animated fadeInDown">
+        <nav id="navbar-header" class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo-white.svg" alt="OpenSalud">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#how-it-works-section" class="link-scroll hidden-xs">¿Cómo funciona?</a></li>
+              <li><a href="#search-section" class="link-scroll">Elige tu médico</a></li>
+              <li><a href="servicios.html" class="hidden-sm">Servicios</a></li>
+              <li><a href="#">Iniciar sesión</a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+      <h1 class="header-title">
+        <span class="header-title-fixed"> Bienvienidos a <b>opensalud.</b> </span>
+        <br>
+      </h1>
+      <h3 class="header-text">
+        <span>USAMOS TECNOLOGÍA PARA PROPORCIONARTE UN SERVICIO DE SALUD COMPLETO, INTUITIVO, HUMANO Y ADAPTADO A TI.</span>
+      </h3>
+      <div class="header-button-container">
+        <button type="button" id="header-button" class="btn btn-default navbar-btn white-border-btn">Regístrate Ahora</button>
+      </div>
+    </header>
+    <section id="consultas" class="row">
+      <div class="col-md-4" id="consulta-presencial">
+        <div class="consulta-icon">
+          <img class="icon-color" src="img/consulta_presencial_color.svg">
+        </div>
+        <div class="consulta-text">
+          <h4 class="consulta-title">CONSULTA</h4>
+          <p>Elige los mejores especialistas, pide <span><a class="small-link" href="">cita online</a></span> y comparte tu información clínica con tu médico</p>
+          <button type="button" id="consulta-btn1" class="consulta-btn">Pedir cita</button>
+        </div>
+      </div>
+      <div class="col-md-4" id="videoconsulta">
+        <div class="consulta-icon">
+          <img class="icon-color" src="img/videoconsulta_color.svg">
+        </div>
+        <div class="consulta-text">
+          <h4 class="consulta-title">VIDEOCONSULTA</h4>
+          <p>Conecta por <span><a class="small-link" href="">videoconferencia</a></span> con tu médico y recibe tu informe clínico de consulta y tu receta online</p>
+          <button type="button" id="consulta-btn2" class="consulta-btn">Acceder a videoconsulta</button>
+        </div>
+      </div>
+      <div class="col-md-4" id="consulta-webmail">
+        <div class="consulta-icon">
+          <img class="icon-color" src="img/consulta_webmail_color.svg">
+        </div>
+        <div class="consulta-text">
+          <h4 class="consulta-title">WEBMAIL</h4>
+          <p>Envía tu consulta al médico que elijas y recibe <span><a class="small-link" href="">en menos de 72h</a></span> la mejor opinión especializada</p>
+          <button type="button" id="consulta-btn3" class="consulta-btn">Enviar consulta</button>
+        </div>
+      </div>
+    </section>
+    <section id="search-section">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Elige tu médico</h2>
+          <p id="intro" class="long-text">Consulta opiniones, elige tu médico y escoge el servicio que mejor se adapta a tus necesidades.</p>
+        </div>
+        <div class="col-md-6 col-md-offset-3 search-container">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Busca por nombre, especialidad, ciudad...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works-section" class="hidden-xs">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>¿Cómo funciona?</h2>
+        </div>
+        <div class="col-md-7" id="browser">
+          <div id="mockup-1" class="how-it-works-mockup active">
+            <img src="img/browser-1.png">
+          </div>
+          <div id="mockup-2" class="how-it-works-mockup">
+            <img src="img/browser-2.png">
+          </div>
+          <div id="mockup-3" class="how-it-works-mockup">
+            <img src="img/browser-3.png">
+          </div>
+          <div id="mockup-4" class="how-it-works-mockup">
+            <img src="img/browser-4.png">
+          </div>
+          <div id="mockup-5" class="how-it-works-mockup">
+            <img src="img/browser-5.png">
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div id="how-it-works-1" class="how-it-works-item" data-target="#mockup-1">
+            <div class="how-it-works-icon">
+              <img src="img/how-it-works-1.svg" class="icon-normal">
+              <img src="img/how-it-works-1-active.svg" class="icon-active">
+            </div>
+            <div class="how-it-works-part">
+              <h4 class="how-it-works-title">REGÍSTRATE</h4>
+              <p class="how-it-works-text">Darse de alta en Opensalud es muy simple. Crea una cuenta con tu correo electrónico para disfrutar de nuestro servicio. Podrás completar tus datos médicos y compartir tu historial clínico con tu médico.</p>
+            </div>
+          </div>
+          <div id="how-it-works-2" class="how-it-works-item" data-target="#mockup-2">
+            <div class="how-it-works-icon">
+              <img src="img/how-it-works-2.svg" class="icon-normal">
+              <img src="img/how-it-works-2-active.svg" class="icon-active">
+            </div>
+            <div class="how-it-works-part">
+              <h4 class="how-it-works-title">SELECCIONA EL SERVICIO</h4>
+              <p class="how-it-works-text">Escoge el servicio que más se adecúe a tus necesidades en cada momento: consulta, videoconsulta o webmail.</p>
+            </div>
+          </div>
+          <div id="how-it-works-3" class="how-it-works-item" data-target="#mockup-3">
+            <div class="how-it-works-icon">
+              <img src="img/how-it-works-3.svg" class="icon-normal">
+              <img src="img/how-it-works-3-active.svg" class="icon-active">
+            </div>
+            <div class="how-it-works-part">
+              <h4 class="how-it-works-title">ELIGE TU MÉDICO Y RESERVA TU CITA</h4>
+              <p class="how-it-works-text">Consulta opiniones y elige el profesional médico que más te convenga entre nuestras más de 80 especialidades médicas y profesionales de todo el mundo.</p>
+            </div>
+          </div>
+          <div id="how-it-works-4" class="how-it-works-item" data-target="#mockup-4">
+            <div class="how-it-works-icon">
+              <img src="img/how-it-works-4.svg" class="icon-normal">
+              <img src="img/how-it-works-4-active.svg" class="icon-active">
+            </div>
+            <div class="how-it-works-part">
+              <h4 class="how-it-works-title">ACCEDE AL SERVICIO</h4>
+              <p class="how-it-works-text">Con opensalud podrás guardar y actualizar tu información médica con total seguridad y confidencialidad y compartirla con tu médico cuando lo necesites.</p>
+            </div>
+          </div>
+          <div id="how-it-works-5" class="how-it-works-item" data-target="#mockup-5">
+            <div class="how-it-works-icon">
+              <img src="img/how-it-works-5.svg" class="icon-normal">
+              <img src="img/how-it-works-5-active.svg" class="icon-active">
+            </div>
+            <div class="how-it-works-part">
+              <h4 class="how-it-works-title">RECIBE TU INFORME DE CONSULTA Y PRESCRIPCIÓN</h4>
+              <p class="how-it-works-text">Imprime tu receta y acude a cualquier farmacia para adquirir tus medicamentos. Rápido, seguro y eficaz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="advantage-section">
+      <h2 class="animation-container">
+        <span class="animation">
+          Recibe tus recetas médicas online/Consulta con tu médico cuando realmente lo necesitas/¿Tienes una urgencia? Ahora mismo hay médicos disponibles para videoconsulta inmediata
+        </span>
+      </h2>
+      <div class="row" id="advantage-container">
+        <div class="col-md-6 advantage-item-container" id="advantage-1">
+          <div class="advantage-item">
+            <h5>#Tueliges</h5>
+            <p>Porque nuestro objetivo es tener los mejores profesionales y la mejor información para que puedas encontrar el médico más adecuado en cada momento.</p>
+          </div>
+        </div>
+        <div class="col-md-6 row" id="advantage-right">
+          <div class="advantage-item-small-container col-sm-6 col-xs-12" id="advantage-2">
+            <div class="advantage-item-small">
+              <h5>#Accesible</h5>
+              <p>Fácil de usar, desde cualquier lugar y en cualquier dispositivo. Disponible las 24 horas del día.</p>
+            </div>
+          </div>
+          <div class="advantage-item-small-container col-sm-6 col-xs-12" id="advantage-3">
+            <div class="advantage-item-small">
+              <h5>#Contotalseguridad</h5>
+              <p>Sólo profesionales acreditados por los colegios médicos, con la máxima seguridad en las comunicaciones y privacidad.</p>
+            </div>
+          </div>
+          <div class="advantage-item-small-container col-sm-6 col-xs-12" id="advantage-4">
+            <div class="advantage-item-small">
+              <h5>#Siempredisponible</h5>
+              <p>Para que puedas contactar en cualquier momento con los mejores profesionales o acceder a tus datos médicos.</p>
+            </div>
+          </div>
+          <div class="advantage-item-small-container col-sm-6 col-xs-12" id="advantage-5">
+            <div class="advantage-item-small">
+              <h5>#Todoloquenecesitas</h5>
+              <p>Servicios adaptados a tus necesidades; acceso a información médica y recetas electrónicas online.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="share-section">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>¡Descarga nuestra app!</h2>
+        </div>
+        <div class="col-sm-12 row store">
+          <div class="col-sm-6">
+            <div class="store-item" id="app-store">
+              <div class="store-item-inner">
+                <img src="img/app-store.svg" class="store-normal">
+                <img src="img/app-store-active.svg" class="store-active">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="store-item" id="google-play">
+              <div class="store-item-inner">
+                <img src="img/google-play.svg" class="store-normal">
+                <img src="img/google-play-active.svg" class="store-active">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <h2>Comparte <span class="opensalud">opensalud</span> con las personas que quieres</h2>
+        </div>
+        <div class="col-sm-12 share">
+          <div class="share-item">
+            <img src="img/facebook.svg" class="share-normal">
+            <img src="img/facebook-active.svg" class="share-active">
+          </div>
+          <div class="share-item">
+            <img src="img/twitter.svg" class="share-normal">
+            <img src="img/twitter-active.svg" class="share-active">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="professional-section">
+     <div class="row">
+        <div class="col-md-12">
+          <h2>¿Eres un profesional médico?</h2>
+          <p class="long-text">
+            Comienza a prestar tus servicios en sólo 3 pasos
+            <br>
+            Opensalud te proporciona de una manera sencilla todas las herramientas que necesitas en un entorno digital: gestión de citas online, videoconsulta, segunda opinión, historia clínica, facturación y prescripción electrónicas
+          </p>
+          <div>
+            <button type="button" id="prof-sign-up-btn" class="btn btn-default navbar-btn blue-border-btn">Registrarme gratis</button>
+          </div>
+          <p><a class="small-link" href="">Descubre sus ventajas</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="footer-title col-md-12">
+          Copyright © 2015 Opensalud
+        </div>
+        <div class="col-md-4">
+          <a href="">Términos y condiciones de servicio</a>
+          <br>
+          <a href="">Privacidad y protección de datos</a>
+        </div>
+        <div class="col-md-4">
+          <a href="">Acerca de Opensalud</a>
+          <br>
+          <a href="">Preguntas frecuentes</a>
+        </div>
+        <div class="col-md-4">
+          <a href="">Contacto</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
