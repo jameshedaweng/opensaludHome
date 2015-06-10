@@ -406,7 +406,7 @@ section {
       margin-bottom: 2vh; }
       section#search-section .search-container .input-group {
         border-radius: 0px;
-        border-bottom: 2px #2c5173 solid; }
+        border: 2px #2c5173 solid; }
         section#search-section .search-container .input-group input {
           font-size: 1.25em;
           border: none;
