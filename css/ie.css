@@ -1,0 +1,144 @@
+html, body {
+  margin: 0px;
+  overflow-x: auto;
+  overflow-y: auto;
+  overflow: auto;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333333;
+  min-height: 100%; }
+
+body {
+  min-width: 970px;
+  text-align: center; }
+
+h1 {
+  font-family: 'Rambla', sans-serif;
+  letter-spacing: 0;
+  font-weight: 200;
+  font-size: 4.5em; }
+
+h2 {
+  font-weight: 200;
+  margin: 0 0 3vh 0;
+  font-size: 3em; }
+
+h3 {
+  font-weight: 200;
+  font-size: 1.2em; }
+
+h4 {
+  font-weight: 200;
+  font-size: 1.5em; }
+
+h5 {
+  font-family: 'Rambla', sans-serif;
+  font-weight: 200;
+  margin-bottom: 15px;
+  font-size: 1.75em; }
+
+#ie-alert {
+  position: fixed;
+  display: block;
+  width: 100%;
+  min-width: 970px;
+  background-color: #333333;
+  color: white;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #ie-alert a:hover, #ie-alert a:link, #ie-alert a:visited, #ie-alert a:active {
+    color: white; }
+
+#logo {
+  width: 180px;
+  height: 60px;
+  margin-top: 100px; }
+
+#header {
+  color: white;
+  background-image: url(../img/bg-1.jpg);
+  margin-top: 60px; }
+  #header .header-title {
+    padding-top: 50px;
+    text-align: center; }
+    #header .header-title .header-subtitle {
+      line-height: 2em;
+      font-size: 0.6em; }
+  #header .header-text {
+    font-weight: 200;
+    width: 50%;
+    margin: 20px 25% 50px 25%;
+    letter-spacing: 0.1em;
+    line-height: 1.6em;
+    text-align: center; }
+  #header .header-button-container {
+    padding-top: 10px;
+    padding-bottom: 75px;
+    width: 100%;
+    text-align: center; }
+
+.section {
+  margin-top: 100px; }
+
+.long-text {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+#consultas .icon-color {
+  height: 90px; }
+  #consultas .icon-color#consulta-icon-img {
+    width: 64px; }
+  #consultas .icon-color#videoconsulta-icon-img {
+    width: 90px; }
+  #consultas .icon-color#webmail-icon-img {
+    width: 82px; }
+#consultas .col-md-4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 30%;
+  display: inline-block; }
+
+#search-section .search-container {
+  width: 100%;
+  text-align: center; }
+
+#how-it-works-section {
+  text-align: center; }
+  #how-it-works-section .how-it-works-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%; }
+    #how-it-works-section .how-it-works-container .browser {
+      width: 800px;
+      height: 600px; }
+    #how-it-works-section .how-it-works-container .how-it-works-item {
+      text-align: center; }
+      #how-it-works-section .how-it-works-container .how-it-works-item .icon-normal {
+        width: 60px;
+        height: 60px; }
+      #how-it-works-section .how-it-works-container .how-it-works-item p {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%; }
+
+#share-section .store img {
+  width: 190px;
+  height: 60px; }
+#share-section .share img {
+  width: 60px;
+  height: 60px; }
+
+.footer {
+  margin-top: 100px;
+  background-color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white; }
+  .footer a:hover, .footer a:link, .footer a:visited, .footer a:active {
+    color: white; }
+
+/*# sourceMappingURL=ie.css.map */
