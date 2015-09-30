@@ -503,20 +503,29 @@ section {
       section#how-it-works-section .col-md-5 .how-it-works-item .how-it-works-text {
         display: none; }
       section#how-it-works-section .col-md-5 .how-it-works-item .how-it-works-icon {
-        padding-top: 10px;
         width: 60px;
-        max-width: 20%;
+        max-width: 15%;
         float: left; }
       section#how-it-works-section .col-md-5 .how-it-works-item .how-it-works-part {
-        width: 78%;
+        width: 80%;
         float: right;
         text-align: left; }
         section#how-it-works-section .col-md-5 .how-it-works-item .how-it-works-part h4 {
-          line-height: 1.25em; }
+          font-weight: 400;
+          line-height: 30px;
+          margin: 15px 0px;
+          font-size: 1.3em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
       section#how-it-works-section .col-md-5 .how-it-works-item.active .how-it-works-text {
         display: block; }
       section#how-it-works-section .col-md-5 .how-it-works-item.active .how-it-works-part {
         padding-top: 0; }
+        section#how-it-works-section .col-md-5 .how-it-works-item.active .how-it-works-part h4 {
+          text-overflow: clip;
+          white-space: normal;
+          overflow: visible; }
       section#how-it-works-section .col-md-5 .how-it-works-item.active .icon-active {
         display: inline-block; }
       section#how-it-works-section .col-md-5 .how-it-works-item.active .icon-normal {
